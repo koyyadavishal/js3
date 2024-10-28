@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+    <script>
+        //ternary operation
+        let num=+prompt("enter the number");
+        let a =(num%2==0)? "even":"odd";
+        console.log("this number is an "+a);
+
+        //nested ternary
+        //grade marks
+       let m=prompt("enter ur marks");
+       let grades=(m>=90)? "A":
+       (m>=75)? "B":
+       (m>=60)? "C":
+       (m>=45)? "D":"F";
+       console.log("your grade is " + grades);
+
+       //temperature
+       let temp=prompt("enter the temperature");
+       let d=(temp<9)?"cold":
+       (temp<=20)?"cool":
+       (temp<=30)?"warm":"hot";
+       console.log("temperature is "+ d);
+
+      // age group
+       let age=prompt("enter ur age");
+       let p=(age<=12)? "child":
+       (age<=19)? "teen":
+       (age<=64)? "adult":"senior";
+       console.log("you're an  " + p);
+
+
+
+
+    </script>
+</body>
+</html>
